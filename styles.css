@@ -3,8 +3,9 @@ body{
 	color:white;
 }
 a{
-	color:#0bce2f
+	color:#00ff00/*0bce2f*/
 }
 a:visited{
-	color:#ff9800
+	/*color:#ff9800*/
+	color:#009900/*114514*/
 }
