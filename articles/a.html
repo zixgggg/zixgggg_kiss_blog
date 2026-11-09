@@ -1,0 +1,7 @@
+<div id="header"></div>
+<script>
+	const header_path="/zixgggg_/articles/template.html"
+	fetch(header_path)
+	.then(r=>r.text())
+	.then(html=>document.getElementById("header").innerHTML=html)// => 建立一個匿名函式，html 是參數，then把上一步結果傳給 html，再賦值給 innerHTML
+</script>
